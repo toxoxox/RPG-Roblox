@@ -24,11 +24,11 @@ Build a playable loop: Spawn → Fight → Level Up → Buy Weapon → Repeat
 ## Phase 2: Combat (The core loop)
 
 ### Basic Attack System
-- [ ] M1 click = basic attack
-- [ ] Attack has cooldown (prevent spam)
+- [x] M1 click = basic attack
+- [x] Attack has cooldown (prevent spam)
 - [ ] Attack animation plays
-- [ ] Damage calculation works (Weapon + Level bonus)
-- [ ] Test: Can you hit a dummy part and see damage?
+- [x] Damage calculation works (Weapon + Level bonus)
+- [x] Test: Can you hit a dummy part and see damage?
 
 ### Enemy System
 - [ ] Spawn 1 weak mob in Zone 1

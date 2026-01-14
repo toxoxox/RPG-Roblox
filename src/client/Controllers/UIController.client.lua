@@ -24,6 +24,17 @@ local function updateUI()
 
     local hpPercent = hp.Value / maxHP.Value
     hpBarFill.Size = UDim2.new(hpPercent, 0, 1, 0)
+    
+   if hp.Value < 100 and hp.Value > 50 then
+    
+	hpBarFill.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+	
+	elseif hp.Value < 50 and hp.Value > 0 then
+	
+	hpBarFill.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+	
+	end
+end
 
 end
 
