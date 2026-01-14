@@ -1,0 +1,202 @@
+🎮 GAME DESIGN DOCUMENT
+Title: Anime Clash: Simple RPG
+1. Core Idea (The whole point)
+
+A simple anime-inspired RPG where players:
+
+Spawn in one main area
+
+Fight enemies
+
+Level up
+
+Get stronger weapons or powers
+
+Repeat until ego is satisfied
+
+No deep lore. No galaxy brain systems. Just progression that feels good.
+
+2. Target Platform
+
+Roblox (PC + Mobile)
+
+Casual players, ages 8–16
+
+“Hop in, grind a bit, leave” energy
+
+3. Core Gameplay Loop (This matters most)
+
+Spawn in town
+
+Accept quest OR walk into enemy zone
+
+Kill enemies
+
+Gain EXP + Coins
+
+Level up / Buy better weapon
+
+Unlock next area
+
+Repeat
+
+If this loop isn’t fun, the game is cooked.
+
+4. Combat System (Keep it brain-dead simple)
+
+Basic attack (M1)
+
+1 Skill (cooldown-based)
+
+Enemies auto-target players
+
+Damage = Weapon Damage + Level Bonus
+
+No combos. No parry system. You’re not FromSoftware.
+
+5. Stats (Minimal, no math degree required)
+
+Player Stats:
+
+Level
+
+HP
+
+Damage
+
+That’s it.
+No crit chance. No agility. No mana unless you hate yourself.
+
+6. Enemies
+
+Enemy Types:
+
+Weak Mob (easy farm)
+
+Strong Mob (more HP, more damage)
+
+Mini-Boss (area gatekeeper)
+
+Enemy Scaling:
+
+Higher zones = higher stats
+
+Same AI, just stronger numbers
+
+Reuse systems. Be lazy on purpose.
+
+7. World Design
+
+Map Structure:
+
+Safe Spawn Town
+
+Zone 1: Grass Field (starter enemies)
+
+Zone 2: Forest / Ruins
+
+Zone 3: Lava / Dark Area (later update)
+
+Zones unlock by:
+
+Level requirement OR
+
+Killing the area boss
+
+8. Weapons (Anime flavor without chaos)
+
+Weapon Types:
+
+Sword
+
+Katana
+
+Energy Blade
+
+Each weapon only changes:
+
+Damage
+
+Visual effects
+
+No durability. That mechanic belongs in the trash.
+
+9. Progression
+
+EXP from enemies
+
+Level up increases HP + Damage
+
+Coins used to:
+
+Buy weapons
+
+Upgrade weapon damage (optional)
+
+Simple numbers going up = dopamine.
+
+10. UI (Do not overdo it)
+
+Must have:
+
+HP bar
+
+EXP bar
+
+Level text
+
+Coins
+
+Optional:
+
+Quest tracker
+
+Skill cooldown indicator
+
+If the UI looks like a spaceship dashboard, you messed up.
+
+11. Data Saving
+
+Save:
+
+Level
+
+Coins
+
+Equipped weapon
+
+Use ProfileStore or equivalent.
+If data fails to load → kick player.
+Harsh but fair.
+
+12. Monetization (Optional, don’t be evil)
+
+Gamepass: +10% EXP
+
+Gamepass: Cool weapon skin (cosmetic only)
+
+No pay-to-win. That’s how games die early.
+
+13. MVP Scope (What you build FIRST)
+
+For Version 1:
+
+1 map
+
+3 enemy types
+
+1 weapon shop
+
+Level system
+
+Basic saving
+
+Anything beyond this is “future you” problem.
+
+14. Inspiration (Quietly steal)
+
+Anime Fighters (but slower)
+
+One Piece games (without the chaos)
+
+Classic RPG grind loops
